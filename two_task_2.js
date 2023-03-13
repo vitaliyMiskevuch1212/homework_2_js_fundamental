@@ -14,7 +14,7 @@
     console.log(res3); // true
     console.log(typeof res3); // ""boolean""
 
-    let res4 = NaN + x + y;
+    let res4 = (x - x) / (y - y);
     console.log(res4); // NaN
     console.log(typeof res4); // ""number""
 })()
